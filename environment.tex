@@ -4,13 +4,21 @@
 
 \usepath[{product}]
 
-\setupinteraction[state=start,title={project},author={Adam Reviczky},subtitle={product},keyword={ConTeXt}]
+\setupinteraction[state=start,title={Katalin szakácskönyve},author={Adam Reviczky},subtitle={product},keyword={ConTeXt}]
 \placebookmarks[title,subject][force=yes]
 
 \setuppapersize[A6][A6]
+\setuptolerance[verytolerant,stretch]
 
 \mainlanguage[hu]
+
+\usemodule[simplefonts]
+\setmainfont[heros]
+\setmonofont[cursor]
+\setmathfont[palatino]
 \setupbodyfont[10pt]
+
+\setuppagenumbering[location=bottom]
 
 \showframe
 
