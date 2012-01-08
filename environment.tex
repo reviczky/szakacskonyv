@@ -21,10 +21,13 @@
 \setmathfont[palatino]
 \setupbodyfont[10pt]
 
-\setuppagenumbering[location=bottom]
+\setuphead[chapter,section,subsection][color=headingcolor]
+
+\setuppagenumbering[location={footer,center}]
 \setupunit[style=\bi,color=maincolor]
 
 \definecolor[red][c=0,m=1,y=1,k=0]
+\definecolor[headingcolor][c=.87,m=.71,y=0,k=.51]
 
 \showframe
 
