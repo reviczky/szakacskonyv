@@ -4,11 +4,13 @@
 
 \usepath[{product}]
 
-\setupinteraction[state=start,title={Katalin szakácskönyve},author={Adam Reviczky},subtitle={product},keyword={ConTeXt}]
+\setupinteraction[state=start,title={Katalin szakácskönyve},author={Katalin Reviczky},subtitle={receptkönyv},keyword={ConTeXt}]
 \placebookmarks[chapter,section]
 
 \setuppapersize[A6][A6]
 \setuptolerance[verytolerant,stretch]
+
+\setuplayout[backspace=5mm,width=95mm,topspace=5mm,top=0mm,header=0mm,footer=5mm,height=133mm]
 
 \mainlanguage[hu]
 
@@ -20,8 +22,9 @@
 \setupbodyfont[10pt]
 
 \setuppagenumbering[location=bottom]
-
 \setupunit[style=\bi,color=maincolor]
+
+\definecolor[red][c=0,m=1,y=1,k=0]
 
 \showframe
 
